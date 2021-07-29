@@ -17,18 +17,19 @@
   background-color: #CCC;
   color: #000; }
 
-.header {
-  width: 100vw; }
-
+/*.header{width: 100vw;}*/
 .container {
   position: relative;
-  width: 100%; }
+  width: 100vw; }
   .container__pic {
-    width: 100%; }
+    width: 100%;
+    height: 100%;
+    min-height: 568px;
+    min-width: 350px; }
   .container__menu {
     width: 44px;
     height: 44px;
-    background-color: blue;
+    background-color: #0271bc;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -42,12 +43,19 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%); }
+    transform: translate(-50%);
+    text-align: center; }
+    .container__text--main, .container__text--second {
+      color: #ffff;
+      font-family: "Roboto", sans-serif; }
     .container__text--main {
-      color: white;
-      text-transform: capitalize; }
+      text-transform: uppercase;
+      width: 290px;
+      height: 110px;
+      font-size: 42px;
+      width: 8em; }
     .container__text--second {
-      color: white; }
+      font-size: 16px; }
 
 .main__list {
   padding-left: 2rem;
