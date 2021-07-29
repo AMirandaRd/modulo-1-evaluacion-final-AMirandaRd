@@ -17,6 +17,15 @@
   background-color: #CCC;
   color: #000; }
 
+main {
+  margin: 15px,15px,15px,15px; }
+
+.tip {
+  width: 90px;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; }
+
 /*.header{width: 100vw;}*/
 .container {
   position: relative;
@@ -56,6 +65,13 @@
       width: 8em; }
     .container__text--second {
       font-size: 16px; }
+  .container__button {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    transform: translate(250px, -100px); }
 
 .main__list {
   padding-left: 2rem;

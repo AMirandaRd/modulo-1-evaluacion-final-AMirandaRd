@@ -32,6 +32,13 @@
                       width:8em}
               &--second {font-size: 16px}
                       
-    
-                    }
+              }
+              &__button { width: 46px;
+                          height: 46px;
+                          border-radius: 50%;
+                          position: relative;
+                          display: inline-block;
+                          transform: translate(250px,-100px);
+                      
+                        }
    }
