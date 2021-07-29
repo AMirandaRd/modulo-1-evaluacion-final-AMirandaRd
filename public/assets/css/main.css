@@ -17,13 +17,6 @@
   background-color: #CCC;
   color: #000; }
 
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url("../images/bg-adalab.png");
-  background-color: #f3f4f5;
-  font-family: "Roboto", sans-serif; }
-
 .header {
   width: 100vw; }
 
@@ -32,11 +25,19 @@ body {
   width: 100%; }
   .container__pic {
     width: 100%; }
-  .container__button {
+  .container__menu {
+    width: 44px;
+    height: 44px;
     background-color: blue;
     position: fixed;
     top: 0px;
-    left: 0px; }
+    left: 0px;
+    text-align: center; }
+    .container__menu--icon {
+      width: 16px;
+      height: 16px;
+      padding: 15px, 14px;
+      margin-top: 15px; }
   .container__text {
     position: absolute;
     top: 50%;
