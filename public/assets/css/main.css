@@ -24,22 +24,19 @@
   background-color: #ffff;
   margin-left: 15px;
   margin-right: 15px;
-  min-width: 250px; }
+  min-width: 250px;
+  text-align: left; }
   @media (min-width: 768px) {
     .first-section {
-      margin-left: 45px;
-      margin-right: 45px; } }
+      margin: 0px 45px 0px 45px; } }
 
 .tip-tit {
+  text-transform: capitalize;
   display: inline-block;
   color: #8ccbea;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   margin-top: 10%; }
-
-.art1 {
-  /* display: inline-block;*/
-  text-align: left; }
 
 .art1-title {
   font-size: 24px;
@@ -62,7 +59,6 @@
   color: #4a4a4a; }
   @media (min-width: 768px) {
     .art1-p {
-      margin: 30px;
       font-size: 20px;
       line-height: 1.5; } }
 
@@ -76,9 +72,16 @@
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center; }
+  @media (min-width: 768px) {
+    .button {
+      width: 91px;
+      height: 45px; } }
   .button:hover {
     background-color: yellowgreen;
     transform: translateY(-10px); }
+    @media (min-width: 768px) {
+      .button:hover {
+        background-color: #8b46cc; } }
 
 .button-link {
   text-decoration: none;
@@ -124,11 +127,18 @@
     font-size: 42px;
     word-spacing: 100vw;
     margin-top: 30%; }
+    @media (min-width: 768px) {
+      .header__text--main {
+        font-size: 80px;
+        line-height: 106px; } }
   .header__text--second {
     color: #ffff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     margin-top: 5%; }
+    @media (min-width: 768px) {
+      .header__text--second {
+        font-size: 24px; } }
   .header__button {
     background-color: #ffff;
     background-position: center;
@@ -148,13 +158,14 @@
 .footer-linkhome {
   width: 45px;
   height: 45px;
-  line-height: 45px;
+  line-height: 55px;
   text-align: center;
   background-color: #ffff;
   border-radius: 50%;
   transform: translateY(-50%); }
 
 .container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -177,7 +188,8 @@
   text-transform: uppercase;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  color: #ffff; }
+  color: #ffff;
+  line-height: 1.5; }
 
 .footer-copy {
   margin-top: 30px;
