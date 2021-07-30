@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="inicio">
 
         <nav class="header__menu">
           <a href="https://adalab.es/">
@@ -32,7 +32,7 @@
           <h2 class="header__text--second">In hac habitasse platea dictums</h2>
        
         
-          <a class="header__button" href="#3reason"> <img src="./assets/images/ico-scroll-down.svg" alt="Scroll down" title="Scroll down" /> </a>
+          <a class="header__button" href="#reason"> <img src="./assets/images/ico-scroll-down.svg" alt="Scroll down" title="Scroll down" /> </a>
 
       
     </header>
@@ -54,7 +54,7 @@
 
           <section class="main__second">
 
-              <h2 id="#3reasons">3 reasons to purchase</h2>
+              <h2 id="reasons">3 reasons to purchase</h2>
               <h5>Ut sed metus</h5>
               <p> Lorem ipsum dolor sit amet consectetur </p>
               <h5>Curabitur ac erat</h5>
@@ -65,12 +65,32 @@
               <a href="" type="button" value="More reasons">
           </section>
       </main>
-      <footer class="page__footer">
+      <footer class="footer">
 
-        <button> <img src="./assets/images/ico-arrow.svg" ></i></button>
-        <small>
-          &copy;2021 We <i class="fas fa-heart"> </i>components
-        </small>
+        <a href="#inicio" class="footer-linkhome"> <img src="./assets/images/ico-arrow.svg" title="Volver al inicio" alt="go up arrow" ></i></a>
+        <nav>
+          <ul class="footer__menu">
+              <li><a href="https://adalab.es/" class="menu-link">books</a></li>      
+              <li><a href="https://adalab.es/"class="menu-link">articles</a></li>
+              <li><a href="https://adalab.es/"class="menu-link">events</a></li>
+              <li><a href="https://adalab.es/"class="menu-link">reasons</a></li>
+              <li><a href="https://adalab.es/" class="menu-link">tips</a></li>
+            </ul>
+          </nav>
+        <nav>
+            <ul class="footer__menu--second">
+              <li><a href="https://adalab.es/"class="menu-link">twitter</a></li>
+              <li><a href="https://adalab.es/" class="menu-link">instagram</a></li>
+              <li><a href="https://adalab.es/" class="menu-link">mastodon.social</a></li>
+            </ul>
+          </nav>
+            
+          
+        <div class="footer-copy">
+        <p> &copy;2021</p> 
+        <p>We <i class="fas fa-heart"> </i>components</p>
+        
+      </div>
           
       </footer>
 
