@@ -141,8 +141,6 @@
 .footer {
   background-color: #304268;
   width: 100vw;
-  /*position: relative;
-  padding: 10%;*/
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -162,21 +160,17 @@
   align-items: center; }
   @media (min-width: 768px) {
     .container {
-      flex-direction: row; } }
-  .container__menu {
-    list-style-type: none;
-    text-align: center;
-    margin-bottom: 30px;
-    /*flex-direction: column;
-    align-items: center;
-    
-    justify-content: space-evenly;*/ }
-    .container__menu--second {
-      list-style-type: none;
-      text-align: center;
-      /*flex-direction: column;
-      flex-direction: column;
-      align-items: center;*/ }
+      flex-direction: row;
+      justify-content: space-around; } }
+
+.container-menu {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.container-second {
+  list-style-type: none;
+  text-align: center; }
 
 .menu-link {
   text-decoration: none;
@@ -188,8 +182,13 @@
 .footer-copy {
   margin-top: 30px;
   margin-bottom: 15px;
+  color: #ffff;
   text-align: center;
-  color: #ffff; }
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .footer-copy {
+      order: -1; } }
 
 .fa-heart {
   color: red;
