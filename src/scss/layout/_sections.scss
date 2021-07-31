@@ -50,7 +50,6 @@
   border-radius: 22.5px;
   border: solid 2px #f26002;
   background-color: white;
-  padding: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
@@ -60,8 +59,8 @@
   }
   &:hover {
     background-color: yellowgreen;
-    transform: translateY(-10px);
-    @media (min-width: 768px) {
+    transform: rotate(360deg);
+    @media (min-width: 720px) {
       background-color: rgb(139, 70, 204);
     }
   }
@@ -73,9 +72,6 @@
   color: #f26002;
   line-height: 45px;
   font-size: 20px;
-  &:hover {
-    transform: translateY(-10px);
-  }
 }
 
 .main__second {
