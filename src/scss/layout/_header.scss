@@ -1,17 +1,18 @@
-
 .header {
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  @media (min-width:1140px) {justify-content: flex-end;
-  padding-bottom: 5%;}
+  @media (min-width: 1140px) {
+    justify-content: flex-end;
+    padding-bottom: 5%;
+  }
 
   &__menu {
     width: 44px;
@@ -25,34 +26,42 @@
       width: 16px;
       height: 16px;
       padding: 15px, 14px;
-      margin-top: 15px;}
+      margin-top: 15px;
     }
+  }
 
-    
-    
-    &__text--main {
-      text-transform: uppercase;
-      color: $color-headFooter;
-      font-family: $font-title;
-      line-height: 55px;
-      font-size: 42px;
-      word-spacing: 100vw;
-      margin-top: 30%;
-      @media (min-width:720px){ 
+  &__text--main {
+    text-transform: uppercase;
+    color: $color-headFooter;
+    font-family: $font-title;
+    line-height: 55px;
+    font-size: 42px;
+    word-spacing: 100vw;
+    margin-top: 30%;
+    @media (min-width: 720px) {
       font-size: 80px;
-      line-height: 106px; 
-      @media (min-width:1140px){
-      font-size: 100px; line-height: 132px;
-    word-spacing: 100vw;}}}
+      line-height: 106px;
+      @media (min-width: 1140px) {
+        font-size: 100px;
+        line-height: 132px;
+        word-spacing: 100vw;
+      }
+    }
+  }
 
-    &__text--second {
-      color: $color-headFooter;
-      font-family: $font-text;
-      font-size: 16px;
-      margin-top: 5%;
-      @media (min-width:720px){ font-size: 24px;}
-      @media (min-width:1140px){ margin-top: 1%;}}
-  
+  &__text--second {
+    color: $color-headFooter;
+    font-family: $font-text;
+    font-size: 16px;
+    margin-top: 5%;
+    @media (min-width: 720px) {
+      font-size: 24px;
+    }
+    @media (min-width: 1140px) {
+      margin-top: 1%;
+    }
+  }
+
   &__button {
     background-color: $color-headFooter;
     background-position: center;
@@ -61,7 +70,8 @@
     height: 45px;
     border-radius: 50%;
     transform: translateY(150px);
-    @media (min-width:720px){
-    transform:translate(10px,30px)
+    @media (min-width: 720px) {
+      transform: translate(10px, 30px);
+    }
   }
-    }}
+}
