@@ -23,7 +23,7 @@
       flex-direction: row;
     align-items: flex-start;
   justify-content: space-around;}
-  @media (min-width:1140px){ width: 60%;
+  @media (min-width:1140px){ width: 50%;
   }}
  .container-menu{
     list-style-type: none;
@@ -62,4 +62,5 @@
 .fa-heart {
   color: red;
   font-size: 10px;
+  line-height: 30px;
 }
