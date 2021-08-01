@@ -14,3 +14,7 @@ La segunda sección intenté aplicar lo mejor posible grid, como pedía el clien
 El footer ha sido diseñado con flexbox, para darle dinamismo en los diferentes dispositivos y jugar un poco con el orden y la colocación de las cajas.
 
 Un punto importante que quería aclarar, es que el botón de GO tiene diferentes efectos dependiendo del dispositivo que uses, me he permitido esta licencia ya que me parecía algo divertido y diferente.
+
+Este proyecto ha sido un reto que ha requerido mucho esfuerzo y trabajo y a pesar de ello existen ciertos detalles por mejorar, pero he intentado ajustarme lo máximo posible al diseño demandado.
+
+Muchas gracias por su tiempo.

@@ -80,7 +80,7 @@
   font-family: $font-text;}
 
 .main__second {
-  background-color: #8ccbea;
+  background-color: #eff9ff;
   @media (min-width: 720px) { 
     background-color: #eff9ff;}
   &--title {
@@ -103,6 +103,7 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: #f26002;
+  font-family: $font-text;
   color: $color-headFooter;
   text-decoration: none;
   text-align: center;
@@ -112,6 +113,11 @@
   margin-bottom: 10%;
   @media (min-width: 720px) {
     grid-column: 1/4;
+    @media (min-width: 720px) {
+      text-transform: capitalize;
+      width:210px;
+      height: 45px;
+    }
   }
 }
 
@@ -139,25 +145,35 @@
     color: #000000;
     line-height: 30px;
     font-family: $font-text;
-    @media (min-width: 720px) {font-size: 20px;}
+    margin: auto;
+    width: 10em;
+    @media (min-width: 720px) {font-size: 20px;
+    @media (min-width:1140px) { width: 16em;}}
       
   
   }
   a::first-letter {
     text-transform: uppercase;
+      
+    }
   }
-}
 
-@media screen and (min-width: 768px) {
-  .art1-3r {
+.art1-3r { text-align: center;
+  line-height: 30px;
+  @media screen and (min-width: 720px) {
     grid-column: 1;
     grid-row: 2;
-  }
-  .art2-3r {
+    
+  }}
+  .art2-3r { text-align: center;
+    line-height: 30px;
+    @media screen and (min-width: 720px) {
     grid-column: 2;
     grid-row: 2;
-  }
-  .art3-3r {
+  }}
+  .art3-3r { text-align: center;
+    line-height: 30px;
+    @media screen and (min-width: 720px) {
     grid-column: 3;
     grid-row: 2;
   }
