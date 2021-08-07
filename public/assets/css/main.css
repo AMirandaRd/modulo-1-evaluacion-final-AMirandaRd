@@ -68,11 +68,11 @@
     transform: translateX(20px); }
     @media (min-width: 720px) {
       .button:hover {
-        background-color: #ce4fc3;
-        transition-duration: 3s; } }
+        background-color: #cc68c4;
+        transition-duration: 4s; } }
   @media (min-width: 720px) and (min-width: 1140px) {
     .button:hover {
-      border: dotted 4px #dd0404; } }
+      border: dotted 2px #dd0404; } }
 
 .button-link {
   text-decoration: none;
