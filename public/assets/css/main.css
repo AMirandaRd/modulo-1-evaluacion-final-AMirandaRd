@@ -65,14 +65,14 @@
       height: 45px; } }
   .button:hover {
     background-color: yellowgreen;
-    transform: translateX(10px); }
+    transform: translateX(20px); }
     @media (min-width: 720px) {
       .button:hover {
         background-color: #ce4fc3;
-        transform: scale(1.3); } }
+        transition-duration: 3s; } }
   @media (min-width: 720px) and (min-width: 1140px) {
     .button:hover {
-      border: dotted 3px #80d9f0; } }
+      border: dotted 4px #dd0404; } }
 
 .button-link {
   text-decoration: none;
